@@ -1,6 +1,7 @@
-[submodule "insiders"]
-path = ee/insiders
-url = git@github.com:karrioapi/karrio-insiders.git
-[submodule "platform"]
-path = ee/platform
-url = git@github.com:karrioapi/karrio-platform.git
+[submodule "ee/insiders"]
+    path = ee/insiders
+    url = https://<your_github_token>@github.com/karrioapi/karrio-insiders.git
+
+[submodule "ee/platform"]
+    path = ee/platform
+    url = https://<your_github_token>@github.com/karrioapi/karrio-platform.git
